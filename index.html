@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>FAQ accordion</title>
+    <script defer src="src/main.js"></script>
+    <link rel="stylesheet" href="src/css/style.css" >
+  </head>
+  <body>
+    <header>
+      <picture>
+        <source media="(min-width: 1440px)" srcset="/public/background-pattern-desktop.svg">
+        <img class="img-background" src="/public/background-pattern-mobile.svg" alt="">
+      </picture>
+    </header>
+    <main>
+      <section  id="main-container"  class="main-container">
+        <div class="main-container-titulo">
+          <img src="public/icon-star.svg" alt="" />
+          <h1>FAQs</h1>
+        </div>
+        <details  class="main-container-pregunta">
+          <summary  class="main-container-pregunta-titulo">
+            Qué es la Frontend Mentor, y cómo me ayudará?
+            <img id="imagenBtn"   fill=" black" src="public/icon-plus.svg" alt="">
+          </summary>
+          <p>Frontend mentor ofrece desafíos de codificación realistas para ayudar
+            a los desarrolladores a mejorar sus habilidades de codificación de
+            Frontend con proyectos en HTML, CSS y JavaScript. Es adecuado para
+            todos los niveles e ideal para la creación de carteras.</p>
+        </details>
+        <details  class="main-container-pregunta">
+          <summary class="main-container-pregunta-titulo">
+            Frontend Mentor es gratuito?
+            <img id="imagenBtn" width="32px" height="32px" src="public/icon-plus.svg" alt="">
+          </summary>
+          <p> Es en principio gratuita aunque también posee características pagas
+            cómo desafíos premium</p>
+        </details>
+        <details class="main-container-pregunta">
+          <summary class="main-container-pregunta-titulo">Puedo utilizar estos proyectos en mi cartera?
+            <img id="imagenBtn" width="32px" height="32px" src="public/icon-plus.svg" alt="">
+          </summary>
+         <p> ¡Definitivamente! Siéntase libre de utilizar cualquier cosa que cree
+          en su portfolio. Ayudar a los desarrolladores a agregar proyectos de
+          aspecto profesional a su cartera fue una de las razones por las que
+          creamos esta plataforma.</p>
+        </details>
+        <details class="main-container-pregunta">
+          <summary class="main-container-pregunta-titulo">
+            Cómo puedo obtener ayuda si estoy atascada en un desafío?
+            <img id="imagenBtn" width="32px" height="32px" src="public/icon-plus.svg" alt="">
+          </summary>
+         <p> La mejor (y más rápida) manera de obtener ayuda en un desafío es en
+          nuestro servidor de Discord. Hay miles de desarrolladores más allí,
+          por lo que es un excelente lugar para hacer preguntas. ¡Incluso
+          tenemos un canal de "ayuda" dedicado! Si aún no te has unido, puedes
+          recibir una invitación a nuestro servidor de Discord aquí.</p>
+        </details>
+      </section>
+    </main>
+  </body>
+</html>
